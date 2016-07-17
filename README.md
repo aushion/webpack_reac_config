@@ -1,0 +1,2 @@
+# webpack_react_Configuration
+react基于webpack和babel以及es6的项目搭建
