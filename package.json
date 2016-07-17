@@ -1,0 +1,42 @@
+{
+  "name": "react_rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-rewire": "^1.0.0-rc-3",
+    "babel-plugin-transform-react-constant-elements": "^6.8.0",
+    "babel-plugin-transform-react-inline-elements": "^6.8.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.2.7",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-node5": "^11.1.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.1.0",
+    "eslint-plugin-react": "^5.2.2",
+    "jquery": "^3.1.0",
+    "react-transform-catch-errors": "^1.0.2",
+    "react-transform-hmr": "^1.0.4",
+    "redbox-react": "^1.2.10",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "author": "chenaosheng",
+  "license": "ISC"
+}
