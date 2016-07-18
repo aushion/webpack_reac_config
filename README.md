@@ -17,7 +17,7 @@ bundle.js(自动生成)
 + webapck.config.dev.js  
 + server.js  
 + .babelrc  
-   
+
 
 ###3.在package.json中配置好我们需要的依赖  
 ```javascript
@@ -69,12 +69,21 @@ bundle.js(自动生成)
 
 ###6.单独写一个server.js以搭配webpack-dev-server来启动开发环境服务及热更新代码服务
 
-###7.想要babel解析react，以及es2015，需要添加.babelrc文件，写入配置
+###7.想要babel解析react，以及es2015，需要添加.babelrc文件，写入配置  
+```json  
+{
+  "presets": ["react", "es2015"],
+  "env": {
+    "development": {
+       "presets": ["react-hmre"]
+     }
+   }
+}
+```
 
 ###8.package.json文件下的script属性增加为  
 ```javascript
-"start": "node server.js",   
-"build": "webpack --config webpack.config.prod.js --progress --colors"
+"start": "node server.js",   //启动开发环境服务
+"build": "webpack --config webpack.config.prod.js --progress --colors" //生产环境打包
 ```
 ###9.npm start 启动项目 浏览器输入[http://localhost:3000](http://localhost:3000) 完成
-
