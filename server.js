@@ -2,7 +2,6 @@ var path = require('path');
 var webpack = require('webpack');
 var config = require('./webpack.config.dev');
 var WebpackDevServer = require("webpack-dev-server");
-config.entry.unshift("webpack-dev-server/client?http://localhost:3000/", "webpack/hot/dev-server");
 var compiler = webpack(config);
 var server = new WebpackDevServer(compiler, {
   publicPath: config.output.publicPath,
