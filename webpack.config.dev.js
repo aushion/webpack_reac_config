@@ -27,10 +27,10 @@ module.exports = {
       loader: 'babel',
       include: path.join(__dirname, 'app')
     },{
-            test: /\.css$/,
-            exclude: /node_modules/,
-            include: path.join(__dirname, 'app'),
-            loader: 'style-loader!css-loader'
+      test: /\.css$/,
+      exclude: /node_modules/,
+      include: path.join(__dirname, 'app'),
+      loader: 'style-loader!css-loader'
         }]
   }
 };
