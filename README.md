@@ -88,3 +88,6 @@ bundle.js(自动生成)
 "build": "webpack --config webpack.config.prod.js --progress --colors" //生产环境打包
 ```
 ###9.npm start 启动项目 浏览器输入[http://localhost:3000](http://localhost:3000) 完成
+
+###10.调试  
+![image](http://note.youdao.com/yws/res/47/WEBRESOURCE4ff24f8e7d39309d0663435e0b03237e)
