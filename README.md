@@ -76,5 +76,5 @@ bundle.js(自动生成)
 "start": "node server.js",   
 "build": "webpack --config webpack.config.prod.js --progress --colors"
 ```
-###9.npm start 启动项目 浏览器输入[http://localhost:3000]() 完成
+###9.npm start 启动项目 浏览器输入[http://localhost:3000](http://localhost:3000) 完成
 
