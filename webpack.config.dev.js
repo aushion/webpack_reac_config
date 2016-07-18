@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin()
   ],
-resolve: {
+  resolve: {
     extensions: ['', '.js', '.jsx']
   },
   module: {
