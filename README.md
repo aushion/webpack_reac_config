@@ -69,7 +69,7 @@ bundle.js(自动生成)
 
 ###6.单独写一个server.js以搭配webpack-dev-server来启动开发环境服务及热更新代码服务
 
-###7.想要babel解析react，以及es2015，需要添加.babelrc文件，写入配置  （也可以不写.babelrc文件，直接把配置卸载package.json）
+###7.想要babel解析react，以及es2015，需要添加.babelrc文件，写入配置  （也可以不写.babelrc文件，直接把配置写在package.json中）
 ```json  
 {
   "presets": ["react", "es2015"],
