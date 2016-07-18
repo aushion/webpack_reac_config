@@ -1,4 +1,5 @@
 import React from 'react';
+import  style from './hello.css';
 var Hello = React.createClass({
   getInitialState: function () {
     return {
@@ -20,14 +21,8 @@ var Hello = React.createClass({
   },
 
   render: function () {
-    var style = {
-      fontSize:22,
-      fontFamily:'微软雅黑',
-      fontWeight:'bold',
-      opacity:this.state.opacity
-    };
     return (
-      <div style={style}>
+      <div className="h">
           Hello world 
       </div>
     );
