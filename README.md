@@ -54,7 +54,7 @@ bundle.js(自动生成)
 ###4.回到项目根目录cmd，输入npm install开始安装依赖，等待依赖安装完成(会自动生成node_modules文件夹，所有依赖模块都安装在其中)  
 
 ###5.依赖安装完成开始配置webpack.config.dev.js(开发环境），webpack.config.prod.js(生产环境）  
-主要是三个陪配置:entry(入口文件)，output(编译后的输出文件)，loaders(编译规则)
+主要是三个配置:entry(入口文件)，output(编译后的输出文件)，loaders(编译规则)
 
 ###6.单独写一个server.js以搭配webpack-dev-server来启动开发环境服务及热更新代码服务
 
