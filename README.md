@@ -14,9 +14,10 @@ index.js
 bundle.js(自动生成)
 + index.html  
 + package.json
-+ webapck.config.dev.js  
-+ server.js  
-+ .babelrc  
++ webapck.config.dev.js(开发环境配置)  
++ webpack.config.prod.js(生产环境配置)     
++ server.js(配合webpack启动开发服务，支持热更新)  
++ .babelrc(babel解析es6,react的配置)  
 
 
 ###3.在package.json中配置好我们需要的依赖  
@@ -69,7 +70,7 @@ bundle.js(自动生成)
 
 ###6.单独写一个server.js以搭配webpack-dev-server来启动开发环境服务及热更新代码服务
 
-###7.想要babel解析react，以及es2015，需要添加.babelrc文件，写入配置  （也可以不写.babelrc文件，直接把配置写在package.json中）
+###7.想要babel解析react，以及es2015，需要添加.babelrc文件，写入配置（也可以不写.babelrc文件，直接把配置写在package.json中）
 ```json  
 {
   "presets": ["react", "es2015"],
